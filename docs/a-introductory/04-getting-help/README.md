@@ -225,16 +225,15 @@ It gives additional information about a command.
 (ls is aliased to `ls --color=auto')
 (-bash: type: g++: not found)
 
-### ❌ Counting lines and words
+### ✅ Counting lines and words
 
 *What command can be used to count lines and words in text? Give an example and explain the output.*
 You can use the wc command.
 
-### ❌ The wget command
+### ✅ The wget command
 
 *How can you download a file from the Internet using the command line?. Find a file online to use it on and demonstrate its usage.*
 With the wget command.
-()
 
 ### ✅ The dmesg command
 
