@@ -186,43 +186,68 @@ Find all the info you need in the man-pages. Make sure to comment the commands y
 
 Mark challenges using a ✅ once they are finished.
 
-### ❌ The free command
+### ✅ The free command
 
 *Describe in your own words what the `free` command does. Give an example and a partial output.*
+Displays how much free and taken memory you have.
+(             total        used        free      shared  buff/cache   available
+Mem:       12979060      138052    12424136          72      416872    12588576
+Swap:       4194304           0     4194304)
 
-### ❌ The id command
+### ✅ The id command
 
 *Describe in your own words what the `id` command does. Give an example and a partial output.*
+Prints the user and group of the user.
+(uid=1000(markdc) gid=1000(markdc) groups=1000(markdc),27(sudo))
 
-### ❌ The tree command
+### ✅ The tree command
 
 *Describe in your own words what the `tree` command does. How do you list all subdirectories too? How can you only include directories? If the `tree` command is not available on your system you can install it using `sudo apt install tree`*
+Lists directories in a tree-like form and all directories can be listed with -a.
 
-### ❌ The which command
+
+### ✅ The which command
 
 *Describe in your own words what the `which` command does. What is the result for `pwd` ?*
+It searches for the directory of an executable.
+(/usr/bin/pwd)
 
-### ❌ The file command
+### ✅ The file command
 
 *Describe in your own words what the `file` command does. What is the result for `~/.bashrc` ?*
+returns the type of a file.
+(/home/markdc/.bashrc: ASCII text)
 
-### ❌ The type command
+### ✅ The type command
 
 *Describe in your own words what the `type` command does. What is the result for `ls` and what is the result for `g++` ?*
+It gives additional information about a command.
+(ls is aliased to `ls --color=auto')
+(-bash: type: g++: not found)
 
 ### ❌ Counting lines and words
 
 *What command can be used to count lines and words in text? Give an example and explain the output.*
+You can use the wc command.
 
 ### ❌ The wget command
 
 *How can you download a file from the Internet using the command line?. Find a file online to use it on and demonstrate its usage.*
+With the wget command.
+()
 
-### ❌ The dmesg command
+### ✅ The dmesg command
 
 *Describe in your own words what the `dmesg` command does. Give an example and a partial output.*
+Prints the kernel ring buffer.
+([    0.000000] Linux version 5.10.16.3-microsoft-standard-WSL2 (oe-user@oe-host) (x86_64-msft-linux-gcc (GCC) 9.3.0, GNU ld (GNU Binutils) 2.34.0.20200220) #1 SMP Fri Apr 2 22:23:49 UTC 2021
+[    0.000000] Command line: initrd=\initrd.img panic=-1 pty.legacy_count=0 nr_cpus=16
+[    0.000000] KERNEL supported cpus:
+[    0.000000]   Intel GenuineIntel
+[    0.000000]   AMD AuthenticAMD
+[    0.000000]   Centaur CentaurHauls)
 
-### ❌ Checksums
+### ✅ Checksums
 
 *Go to the website of Raspberry Pi - [https://www.raspberrypi.org/software/operating-systems](https://www.raspberrypi.org/software/operating-systems) and download the Raspberry Pi OS image using the `wget` command line tool. Now check if the SHA-256 checksum complies with the one being advertised on the website.*
 
@@ -230,6 +255,7 @@ Mark challenges using a ✅ once they are finished.
 
 *What is the use of this hash?*
 
-### ❌ The printenv command
+### ✅ The printenv command
 
 *Describe in your own words what the `printenv` command does.*
+It prints the current environment.
